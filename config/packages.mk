@@ -5,7 +5,6 @@ PRODUCT_PACKAGES += \
     GameSpace \
     NetworkStackOverlay \
     NoCombinedIconsOverlay \
-    Panic \
     ParallelSpace \
     RepainterServicePriv \
     Ripple \
@@ -80,7 +79,12 @@ system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk \
 system/priv-app/FaceUnlockService/FaceUnlockService.apk \
 system/priv-app/GoogleExtServices/GoogleExtServices.apk \
 system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk \
-system/priv-app/TagGoogle/TagGoogle.apk
+system/priv-app/TagGoogle/TagGoogle.apk \
+system/etc/permissions/android.software.nfc.beam.xml \
+system/etc/textclassifier/actions_suggestions.universal.model \
+system/etc/textclassifier/lang_id.model \
+system/etc/textclassifier/textclassifier.en.model \
+system/etc/textclassifier/textclassifier.universal.model
 
 # Openssh
 PRODUCT_PACKAGES += \
