@@ -6,11 +6,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.notification_sound=Argon.ogg \
     ro.config.alarm_alert=Hassium.ogg
 
-# Apps
-PRODUCT_PACKAGES += \
-    Aperture \
-    Eleven
-
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
     DerpLauncherQuickStepGo
@@ -28,7 +23,8 @@ endif
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
-    product_charger_res_images
+    product_charger_res_images \
+    product_charger_res_images_vendor
 
 # Customizations
 PRODUCT_PACKAGES += \
